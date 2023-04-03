@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpMayorEdad.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpMayorEdad"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid x:Name="btnLimpiar">
+        <Button Content="Limpiar" HorizontalAlignment="Left" Margin="460,158,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button x:Name="btnSalir" Content="Salir" HorizontalAlignment="Left" Margin="459,183,0,0" VerticalAlignment="Top" Click="btnSalir_Click"/>
+        <Button x:Name="btnCalcular" Content="Calcular" HorizontalAlignment="Left" Height="18" Margin="460,135,0,0" VerticalAlignment="Top" Width="50" Click="btnCalcular_Click"/>
+        <Label Content="Mayor de Edad" HorizontalAlignment="Left" Height="51" Margin="0,10,0,0" VerticalAlignment="Top" Width="790" HorizontalContentAlignment="Center" FontSize="28"/>
+        <Label Content="Ingrese su edad" HorizontalAlignment="Left" Margin="87,127,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtEdad" HorizontalAlignment="Left" Height="22" Margin="194,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="51"/>
+        <Label x:Name="lblResultado" Content="" HorizontalAlignment="Left" Height="26" Margin="93,183,0,0" VerticalAlignment="Top" Width="158"/>
+
+    </Grid>
+</Window>
